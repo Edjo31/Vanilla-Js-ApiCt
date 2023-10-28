@@ -1,0 +1,19 @@
+
+.error {
+   animation: tras ;
+   animation-duration: 1s;
+   text-align: center;
+   width: 12%;
+   background-color: red;
+   color:white;
+}
+
+@keyframes tras {
+    0% {
+       transform: translateX(200%);
+    }
+    100% {
+       
+        transform: translateX(0%);
+    }
+}
